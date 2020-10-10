@@ -1,0 +1,6 @@
+framework module Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests {
+  umbrella header "Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

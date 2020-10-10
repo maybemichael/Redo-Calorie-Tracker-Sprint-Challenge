@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Calorie-Tracker-Redo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Calorie-Tracker-Redo
+  pod "SwiftChart", :git => 'https://github.com/gpbl/SwiftChart', :branch => 'master'
+
+
+  target 'Calorie-Tracker-RedoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Calorie-Tracker-RedoUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC8BC4525321B6B00982683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC4425321B6B00982683 /* AppDelegate.swift */; };
+		4CC8BC4725321B6B00982683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC4625321B6B00982683 /* SceneDelegate.swift */; };
+		4CC8BC4C25321B6B00982683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC8BC4A25321B6B00982683 /* Main.storyboard */; };
+		4CC8BC4E25321B6B00982683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC8BC4D25321B6B00982683 /* Assets.xcassets */; };
+		4CC8BC5125321B6B00982683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC8BC4F25321B6B00982683 /* LaunchScreen.storyboard */; };
+		4CC8BC5C25321B6B00982683 /* Calorie_Tracker_RedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC5B25321B6B00982683 /* Calorie_Tracker_RedoTests.swift */; };
+		4CC8BC6725321B6B00982683 /* Calorie_Tracker_RedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC6625321B6B00982683 /* Calorie_Tracker_RedoUITests.swift */; };
+		4CC8BC8725321DB600982683 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC8625321DB600982683 /* MainCoordinator.swift */; };
+		4CC8BC8C25321EAD00982683 /* CalorieTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8BC8B25321EAD00982683 /* CalorieTrackerViewController.swift */; };
+		4CC8BCAC253226FC00982683 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4CC8BCAB253226FC00982683 /* .swiftlint.yml */; };
+		77B753EEB23BD5717B0154F5 /* Pods_Calorie_Tracker_RedoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FEC094C33BAC9286FCFBBB /* Pods_Calorie_Tracker_RedoTests.framework */; };
+		C3A93F8E33673F9188F642D9 /* Pods_Calorie_Tracker_Redo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42092653E88071551B7191F /* Pods_Calorie_Tracker_Redo.framework */; };
+		F5AFC50A577F078EBB5FA89E /* Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96A6BBB46B5A86F4387C171 /* Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC8BC5825321B6B00982683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC8BC3925321B6B00982683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC8BC4025321B6B00982683;
+			remoteInfo = "Calorie-Tracker-Redo";
+		};
+		4CC8BC6325321B6B00982683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC8BC3925321B6B00982683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC8BC4025321B6B00982683;
+			remoteInfo = "Calorie-Tracker-Redo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FD5CD079BC8BACA22A54DC /* Pods-Calorie-Tracker-Redo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-Redo.debug.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-Redo/Pods-Calorie-Tracker-Redo.debug.xcconfig"; sourceTree = "<group>"; };
+		3DCCE5A63290BBF03A745440 /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.release.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CC8BC4125321B6B00982683 /* Calorie-Tracker-Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calorie-Tracker-Redo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC8BC4425321B6B00982683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC8BC4625321B6B00982683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CC8BC4B25321B6B00982683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CC8BC4D25321B6B00982683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CC8BC5025321B6B00982683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CC8BC5225321B6B00982683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC8BC5725321B6B00982683 /* Calorie-Tracker-RedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calorie-Tracker-RedoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC8BC5B25321B6B00982683 /* Calorie_Tracker_RedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie_Tracker_RedoTests.swift; sourceTree = "<group>"; };
+		4CC8BC5D25321B6B00982683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC8BC6225321B6B00982683 /* Calorie-Tracker-RedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calorie-Tracker-RedoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC8BC6625321B6B00982683 /* Calorie_Tracker_RedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie_Tracker_RedoUITests.swift; sourceTree = "<group>"; };
+		4CC8BC6825321B6B00982683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC8BC8625321DB600982683 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		4CC8BC8B25321EAD00982683 /* CalorieTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTrackerViewController.swift; sourceTree = "<group>"; };
+		4CC8BCAB253226FC00982683 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		60FEC094C33BAC9286FCFBBB /* Pods_Calorie_Tracker_RedoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calorie_Tracker_RedoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C284FD6DDFB8EBC5B4A2A05 /* Pods-Calorie-Tracker-Redo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-Redo.release.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-Redo/Pods-Calorie-Tracker-Redo.release.xcconfig"; sourceTree = "<group>"; };
+		9758751CF3E29A17AD6C10A4 /* Pods-Calorie-Tracker-RedoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-RedoTests.release.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-RedoTests/Pods-Calorie-Tracker-RedoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A96A6BBB46B5A86F4387C171 /* Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42092653E88071551B7191F /* Pods_Calorie_Tracker_Redo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calorie_Tracker_Redo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AC64E0FE429A7964A934F /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F786D78B14274827487B14AA /* Pods-Calorie-Tracker-RedoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie-Tracker-RedoTests.debug.xcconfig"; path = "Target Support Files/Pods-Calorie-Tracker-RedoTests/Pods-Calorie-Tracker-RedoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC8BC3E25321B6B00982683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A93F8E33673F9188F642D9 /* Pods_Calorie_Tracker_Redo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC5425321B6B00982683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B753EEB23BD5717B0154F5 /* Pods_Calorie_Tracker_RedoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC5F25321B6B00982683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AFC50A577F078EBB5FA89E /* Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3076F828ED20F86701096BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5CD079BC8BACA22A54DC /* Pods-Calorie-Tracker-Redo.debug.xcconfig */,
+				7C284FD6DDFB8EBC5B4A2A05 /* Pods-Calorie-Tracker-Redo.release.xcconfig */,
+				D86AC64E0FE429A7964A934F /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.debug.xcconfig */,
+				3DCCE5A63290BBF03A745440 /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.release.xcconfig */,
+				F786D78B14274827487B14AA /* Pods-Calorie-Tracker-RedoTests.debug.xcconfig */,
+				9758751CF3E29A17AD6C10A4 /* Pods-Calorie-Tracker-RedoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CC8BC3825321B6B00982683 = {
+			isa = PBXGroup;
+			children = (
+				4CC8BCAB253226FC00982683 /* .swiftlint.yml */,
+				4CC8BC4325321B6B00982683 /* Calorie-Tracker-Redo */,
+				4CC8BC5A25321B6B00982683 /* Calorie-Tracker-RedoTests */,
+				4CC8BC6525321B6B00982683 /* Calorie-Tracker-RedoUITests */,
+				4CC8BC4225321B6B00982683 /* Products */,
+				3076F828ED20F86701096BC3 /* Pods */,
+				B469E8E4F5B031F4E7482A4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC8BC4225321B6B00982683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC4125321B6B00982683 /* Calorie-Tracker-Redo.app */,
+				4CC8BC5725321B6B00982683 /* Calorie-Tracker-RedoTests.xctest */,
+				4CC8BC6225321B6B00982683 /* Calorie-Tracker-RedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC8BC4325321B6B00982683 /* Calorie-Tracker-Redo */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC932532220100982683 /* Helpers+Extensions */,
+				4CC8BC8525321D9D00982683 /* Coordinators */,
+				4CC8BC8125321D3600982683 /* Models */,
+				4CC8BC8025321D0C00982683 /* ViewControllers */,
+				4CC8BC7F25321CE000982683 /* Resources */,
+				4CC8BC4A25321B6B00982683 /* Main.storyboard */,
+				4CC8BC4F25321B6B00982683 /* LaunchScreen.storyboard */,
+			);
+			path = "Calorie-Tracker-Redo";
+			sourceTree = "<group>";
+		};
+		4CC8BC5A25321B6B00982683 /* Calorie-Tracker-RedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC5B25321B6B00982683 /* Calorie_Tracker_RedoTests.swift */,
+				4CC8BC5D25321B6B00982683 /* Info.plist */,
+			);
+			path = "Calorie-Tracker-RedoTests";
+			sourceTree = "<group>";
+		};
+		4CC8BC6525321B6B00982683 /* Calorie-Tracker-RedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC6625321B6B00982683 /* Calorie_Tracker_RedoUITests.swift */,
+				4CC8BC6825321B6B00982683 /* Info.plist */,
+			);
+			path = "Calorie-Tracker-RedoUITests";
+			sourceTree = "<group>";
+		};
+		4CC8BC7F25321CE000982683 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC4425321B6B00982683 /* AppDelegate.swift */,
+				4CC8BC4625321B6B00982683 /* SceneDelegate.swift */,
+				4CC8BC4D25321B6B00982683 /* Assets.xcassets */,
+				4CC8BC5225321B6B00982683 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CC8BC8025321D0C00982683 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC8B25321EAD00982683 /* CalorieTrackerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4CC8BC8125321D3600982683 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CC8BC8525321D9D00982683 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8BC8625321DB600982683 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		4CC8BC932532220100982683 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		B469E8E4F5B031F4E7482A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42092653E88071551B7191F /* Pods_Calorie_Tracker_Redo.framework */,
+				A96A6BBB46B5A86F4387C171 /* Pods_Calorie_Tracker_Redo_Calorie_Tracker_RedoUITests.framework */,
+				60FEC094C33BAC9286FCFBBB /* Pods_Calorie_Tracker_RedoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC8BC4025321B6B00982683 /* Calorie-Tracker-Redo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC8BC6B25321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-Redo" */;
+			buildPhases = (
+				0AB72A126DC7AB6D354E2FA8 /* [CP] Check Pods Manifest.lock */,
+				4CC8BC3D25321B6B00982683 /* Sources */,
+				4CC8BC3E25321B6B00982683 /* Frameworks */,
+				4CC8BC3F25321B6B00982683 /* Resources */,
+				237C43ACC77F080C0394D384 /* [CP] Embed Pods Frameworks */,
+				4CC8BC972532230D00982683 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calorie-Tracker-Redo";
+			productName = "Calorie-Tracker-Redo";
+			productReference = 4CC8BC4125321B6B00982683 /* Calorie-Tracker-Redo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC8BC5625321B6B00982683 /* Calorie-Tracker-RedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC8BC6E25321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-RedoTests" */;
+			buildPhases = (
+				BF993B5FFBC047A32A5F4F0A /* [CP] Check Pods Manifest.lock */,
+				4CC8BC5325321B6B00982683 /* Sources */,
+				4CC8BC5425321B6B00982683 /* Frameworks */,
+				4CC8BC5525321B6B00982683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC8BC5925321B6B00982683 /* PBXTargetDependency */,
+			);
+			name = "Calorie-Tracker-RedoTests";
+			productName = "Calorie-Tracker-RedoTests";
+			productReference = 4CC8BC5725321B6B00982683 /* Calorie-Tracker-RedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CC8BC6125321B6B00982683 /* Calorie-Tracker-RedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC8BC7125321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-RedoUITests" */;
+			buildPhases = (
+				D27A77754986280543D59C11 /* [CP] Check Pods Manifest.lock */,
+				4CC8BC5E25321B6B00982683 /* Sources */,
+				4CC8BC5F25321B6B00982683 /* Frameworks */,
+				4CC8BC6025321B6B00982683 /* Resources */,
+				5E664CA7EF762D0FF90EF2C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC8BC6425321B6B00982683 /* PBXTargetDependency */,
+			);
+			name = "Calorie-Tracker-RedoUITests";
+			productName = "Calorie-Tracker-RedoUITests";
+			productReference = 4CC8BC6225321B6B00982683 /* Calorie-Tracker-RedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC8BC3925321B6B00982683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4CC8BC4025321B6B00982683 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4CC8BC5625321B6B00982683 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4CC8BC4025321B6B00982683;
+					};
+					4CC8BC6125321B6B00982683 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4CC8BC4025321B6B00982683;
+					};
+				};
+			};
+			buildConfigurationList = 4CC8BC3C25321B6B00982683 /* Build configuration list for PBXProject "Calorie-Tracker-Redo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC8BC3825321B6B00982683;
+			productRefGroup = 4CC8BC4225321B6B00982683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC8BC4025321B6B00982683 /* Calorie-Tracker-Redo */,
+				4CC8BC5625321B6B00982683 /* Calorie-Tracker-RedoTests */,
+				4CC8BC6125321B6B00982683 /* Calorie-Tracker-RedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC8BC3F25321B6B00982683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8BCAC253226FC00982683 /* .swiftlint.yml in Resources */,
+				4CC8BC5125321B6B00982683 /* LaunchScreen.storyboard in Resources */,
+				4CC8BC4E25321B6B00982683 /* Assets.xcassets in Resources */,
+				4CC8BC4C25321B6B00982683 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC5525321B6B00982683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC6025321B6B00982683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB72A126DC7AB6D354E2FA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calorie-Tracker-Redo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		237C43ACC77F080C0394D384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo/Pods-Calorie-Tracker-Redo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo/Pods-Calorie-Tracker-Redo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo/Pods-Calorie-Tracker-Redo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC8BC972532230D00982683 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		5E664CA7EF762D0FF90EF2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF993B5FFBC047A32A5F4F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calorie-Tracker-RedoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27A77754986280543D59C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC8BC3D25321B6B00982683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8BC8725321DB600982683 /* MainCoordinator.swift in Sources */,
+				4CC8BC4525321B6B00982683 /* AppDelegate.swift in Sources */,
+				4CC8BC8C25321EAD00982683 /* CalorieTrackerViewController.swift in Sources */,
+				4CC8BC4725321B6B00982683 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC5325321B6B00982683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8BC5C25321B6B00982683 /* Calorie_Tracker_RedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8BC5E25321B6B00982683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8BC6725321B6B00982683 /* Calorie_Tracker_RedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC8BC5925321B6B00982683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC8BC4025321B6B00982683 /* Calorie-Tracker-Redo */;
+			targetProxy = 4CC8BC5825321B6B00982683 /* PBXContainerItemProxy */;
+		};
+		4CC8BC6425321B6B00982683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC8BC4025321B6B00982683 /* Calorie-Tracker-Redo */;
+			targetProxy = 4CC8BC6325321B6B00982683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CC8BC4A25321B6B00982683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC8BC4B25321B6B00982683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CC8BC4F25321B6B00982683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC8BC5025321B6B00982683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC8BC6925321B6B00982683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CC8BC6A25321B6B00982683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC8BC6C25321B6B00982683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FD5CD079BC8BACA22A54DC /* Pods-Calorie-Tracker-Redo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-Redo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-Redo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CC8BC6D25321B6B00982683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C284FD6DDFB8EBC5B4A2A05 /* Pods-Calorie-Tracker-Redo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-Redo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-Redo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CC8BC6F25321B6B00982683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F786D78B14274827487B14AA /* Pods-Calorie-Tracker-RedoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-RedoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-RedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calorie-Tracker-Redo.app/Calorie-Tracker-Redo";
+			};
+			name = Debug;
+		};
+		4CC8BC7025321B6B00982683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9758751CF3E29A17AD6C10A4 /* Pods-Calorie-Tracker-RedoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-RedoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-RedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calorie-Tracker-Redo.app/Calorie-Tracker-Redo";
+			};
+			name = Release;
+		};
+		4CC8BC7225321B6B00982683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86AC64E0FE429A7964A934F /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-RedoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-RedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calorie-Tracker-Redo";
+			};
+			name = Debug;
+		};
+		4CC8BC7325321B6B00982683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCCE5A63290BBF03A745440 /* Pods-Calorie-Tracker-Redo-Calorie-Tracker-RedoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5X7HQSSM6;
+				INFOPLIST_FILE = "Calorie-Tracker-RedoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmcgrath.Calorie-Tracker-RedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calorie-Tracker-Redo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC8BC3C25321B6B00982683 /* Build configuration list for PBXProject "Calorie-Tracker-Redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC8BC6925321B6B00982683 /* Debug */,
+				4CC8BC6A25321B6B00982683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC8BC6B25321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-Redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC8BC6C25321B6B00982683 /* Debug */,
+				4CC8BC6D25321B6B00982683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC8BC6E25321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-RedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC8BC6F25321B6B00982683 /* Debug */,
+				4CC8BC7025321B6B00982683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC8BC7125321B6B00982683 /* Build configuration list for PBXNativeTarget "Calorie-Tracker-RedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC8BC7225321B6B00982683 /* Debug */,
+				4CC8BC7325321B6B00982683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC8BC3925321B6B00982683 /* Project object */;
+}
